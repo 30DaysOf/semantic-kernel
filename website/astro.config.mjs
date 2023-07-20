@@ -4,16 +4,15 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 
-  // Added Configuration for 
-  // Deployment to GitHub Pages
+  // Config: Deploy to GitHub Pages
   site: 'https://30DaysOf.github.io',
   base: '/semantic-kernel/',
 
   integrations: [
     starlight({
-      title: 'My Docs',
+      title: 'Semantic Kernel',
       social: {
-        github: 'https://github.com/30DaysOf/astro-starlight-ghpages',
+        github: 'https://github.com/30DaysOf/semantic-kernel',
       },
       sidebar: [
         {
